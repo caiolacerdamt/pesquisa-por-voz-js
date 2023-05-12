@@ -1,0 +1,42 @@
+
+.container {
+    font-family: monospace;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+p {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.fas {
+    font-weight: 600;
+    font-size: 2rem;
+    min-width: 3rem;
+}
+
+button {
+    border: none;
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    p {
+     font-size: 26px;
+    }
+
+    .fas {
+        min-width: 3rem;
+    }
+}
+
