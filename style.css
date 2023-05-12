@@ -1,3 +1,9 @@
+:root {
+    --bg-color: #2C3333;
+    --cor-texto: #CBE4DE;
+    --cor-bg-botao: #181823;
+}
+
 
 .container {
     font-family: monospace;
@@ -7,12 +13,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
+    background-color: var(--bg-color);
 }
 
 p {
     font-size: 32px;
     margin-bottom: 20px;
+    color: var(--cor-texto);
 }
 
 .fas {
@@ -26,8 +33,8 @@ button {
     padding: 30px;
     cursor: pointer;
     border-radius: 50%;
-    background-color: black;
-    color: white;
+    background-color: var(--cor-bg-botao);
+    color: var(--cor-texto);
 }
 
 @media (max-width: 700px) {
